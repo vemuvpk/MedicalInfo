@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="WHITE">#ffffff</color>
+    <color name="APPCOLOUR">#3398F6</color>
+    <color name="LIGHTHRAY">#8D8D8D</color>
+    <color name="DARKGRAY">#666666</color>
+    <color name="DULLGRAY">#ECECEC</color>
+    <color name="BLACK">#000000</color>
+    <color name="TOPBAR">#24629C</color>
+    <color name="DAKBLUE">#24629C</color>
+    <color name="BLUETEXT">#4474A6</color>
+
+</resources>

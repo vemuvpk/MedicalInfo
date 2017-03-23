@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/action_relative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/APPCOLOUR"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/menuicon1"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+            android:text="Prescriptions"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/WHITE"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/user_na"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Hi Yog Raj"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button_addprescription"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/join"
+        android:text="Add Prescription"
+        android:textColor="@color/WHITE"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_viewhistory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/join"
+        android:text="View History"
+        android:textColor="@color/WHITE"
+        android:textSize="18sp" />
+
+</LinearLayout>
